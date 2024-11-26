@@ -2,6 +2,8 @@
 title: "About"
 layout: page
 permalink: /about/
+icon: fas fa-info-circle
+order: 4
 ---
 
 It is currently <span id="current-time"></span> in your area.
