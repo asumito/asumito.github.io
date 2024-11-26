@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <!-- Add Font Awesome if not already included -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .icon {
-      margin-right: 8px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1><i class="fas fa-info-circle icon"></i>About</h1>
-  </header>
-
-  <main>
-    <p>It is currently <span id="current-time"></span> in your area.</p>
-  </main>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-      const currentTime = new Date().toLocaleTimeString([], options);
-      document.getElementById('current-time').innerText = currentTime;
-    });
-  </script>
-</body>
-</html>
+---
+layout: home
+# Index pageSS
+---
