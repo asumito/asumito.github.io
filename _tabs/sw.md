@@ -1,5 +1,4 @@
----
-# Welcome to my page!
+﻿# Welcome to my page!
 I am Asmit Das, known online as asumito. `It is currently <span id="current-time"></span> in your area.
 
 <script>
@@ -7,10 +6,5 @@ I am Asmit Das, known online as asumito. `It is currently <span id="current-time
   const currentTime = new Date().toLocaleTimeString([], options);
   document.getElementById('current-time').innerText = currentTime;
 </script>
+`
 
-icon: fas fa-info-circle
-order: 4
----
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
