@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.discordapp.com/attachments/1053260541235298338/1310618887687241860/newpfp_-_Copy.png?ex=67468934&is=674537b4&hm=9a5d13ce3ee445067de76c0a7693601d73b8f1b6d18460f62cb8148149b635d6&
+avatar: https://cdn.discordapp.com/attachments/1314241452468867182/1318184462198243328/pfp.jpeg?ex=67616672&is=676014f2&hm=b5a8cf9c174d2c5f6a8e85fb349e7f8c50285958367e9d550450e7b92189cca7&
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
