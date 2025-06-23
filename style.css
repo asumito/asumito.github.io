@@ -1,0 +1,86 @@
+/* Import custom font */
+@font-face {
+  font-family: 'PatrickHand';
+  src: url('fonts/PatrickHand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #050d14;
+  font-family: 'PatrickHand', sans-serif;
+  color: white;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  font-size: 1rem;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 3rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.thumbnails img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text-block {
+  grid-column: span 2;
+  margin-top: 2rem;
+}
+
+.text-block h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: white;
+}
+
+.text-block p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
