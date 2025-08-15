@@ -35,7 +35,7 @@ This log documents the major changes and reasoning behind them throughout the de
 
 * **What I did:** Created a complete, single-file HTML page.
 
-* **Rationale:** This was the first draft to quickly visualize the design suggestions and ensure the core layout and styling were correct. It's a great way to prototype an idea rapidly.
+* **Outcome:** This was the first draft to quickly visualize the design suggestions and ensure the core layout and styling were correct. It's a great way to prototype an idea rapidly.
 
 ### V1.1 - Split into Separate Files
 
@@ -47,5 +47,16 @@ This log documents the major changes and reasoning behind them throughout the de
 
     * `script.js`: Contains the JavaScript for interactive features like smooth scrolling.
 
-* **Rationale:** This change was made to follow modern web development best practices. Separating concerns makes the code easier to read, debug, and maintain. This structure is ideal for hosting the project on platforms like GitHub Pages.
+* **Outcome:** This change was made to follow modern web development best practices. Separating concerns makes the code easier to read, debug, and maintain. This structure is ideal for hosting the project on platforms like GitHub Pages.
 
+### V1.3 - Moved the files
+* **What I did:** Moved the files to the main repository.
+* **Outcome:** Self-Explanatory
+
+### V1.4 - Fixed the scaling issue.
+* **What I did:** Edited index.html
+*  **Outcome** Self- Explanatory
+
+### v1.4 - Added header image
+
+* **Expected Outcome**
