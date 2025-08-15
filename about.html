@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Asmit</title>
+    <!-- Use the Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use the Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom animation for a smooth fade-in effect */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.8s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-white min-h-screen flex flex-col items-center justify-center p-4">
+
+    <!-- Container for the main content -->
+    <div class="w-full max-w-4xl mx-auto py-12 px-6 bg-gray-900 rounded-3xl shadow-2xl animate-fadeIn">
+
+        <!-- Header/Navigation Bar -->
+        <header class="flex flex-col md:flex-row justify-between items-center mb-12">
+            <!-- Logo with gradient -->
+            <a href="index.html" class="text-3xl font-bold mb-4 md:mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                asumito
+            </a>
+            
+            <!-- Navigation Links -->
+            <nav class="flex flex-wrap justify-center gap-6">
+                <!-- Active link for the current page -->
+                <a href="about.html" class="text-white transition-colors duration-300 font-medium border-b-2 border-blue-500">About</a>
+                <a href="#socials" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Socials</a>
+                <a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Projects</a>
+                <a href="#blog" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+            </nav>
+        </header>
+
+        <!-- About Me Section -->
+        <main class="flex flex-col items-center text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                About Me
+            </h1>
+            
+            <div class="text-lg text-gray-300 text-left space-y-4 md:text-xl max-w-2xl">
+                <p>Hello! I'm Asmit, a first-year intermediate student with a keen interest in web development and technology. I enjoy building things from time to time. My journey into web development started with simple HTML and CSS, and I'm now expanding my skills to include JavaScript and modern libraries.</p>
+                <p>Outside of my studies, I am a gamer. I am learning the guitar currently. I'm always looking to learn and grow, so feel free to reach out to me via my social channels!</p>
+            </div>
+            
+            <a href="index.html" class="mt-8 px-8 py-3 bg-gray-700 text-white font-semibold rounded-full shadow-lg hover:bg-gray-600 transition-all duration-300 transform hover:-translate-y-1">
+                Back to Home
+            </a>
+        </main>
+    </div>
+
+    <!-- Simple Footer -->
+    <footer class="w-full text-center p-4 mt-8 text-gray-600 text-sm">
+        &copy; 2025 asumito. All rights reserved.
+    </footer>
+
+</body>
+</html>

@@ -1,32 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>asumito</title>
-  <link rel="icon" href="images/icon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmit | Personal Website</title>
+    <!-- Use the Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use the Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom animation for a smooth fade-in effect */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.8s ease-out;
+        }
+    </style>
 </head>
-<body>
-  <header>
-    <h1>asumito</h1>
-    <nav>
-      <a href="#">About</a>
-      <a href="https://socials.asumito.com" target="_blank" rel="noopener noreferrer">Socials</a>
-      <a href="https://forums.asumito.com" target="_blank" rel="noopener noreferrer">Forums</a>
-      <a href="https://blog.asumito.com" target="_blank" rel="noopener noreferrer">Blog</a>
-    </nav>
-  </header>
+<body class="bg-gray-950 text-white min-h-screen flex flex-col items-center justify-center p-4">
 
-  <main>
-    <div class="hero">
-      <img src="images/hero.jpeg" alt="Main portrait" />
+    <!-- Container for the main content -->
+    <div class="w-full max-w-4xl mx-auto py-12 px-6 bg-gray-900 rounded-3xl shadow-2xl animate-fadeIn">
+
+        <!-- Header/Navigation Bar -->
+        <header class="flex flex-col md:flex-row justify-between items-center mb-12">
+            <!-- Logo with gradient -->
+            <a href="#" class="text-3xl font-bold mb-4 md:mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                asumito
+            </a>
+            
+            <!-- Navigation Links -->
+            <nav class="flex flex-wrap justify-center gap-6">
+                <!-- Updated link to the new About page -->
+                <a href="https://asumito.com/about" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">About</a>
+                <!-- Updated link for Socials -->
+                <a href="https://socials.asumito.com" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Socials</a>
+                <!-- Updated link for Projects -->
+                <a href="https://github.com/asumito" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Projects</a>
+                <!-- Updated link for Blog -->
+                <a href="https://blog.asumito.com" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+            </nav>
+        </header>
+
+        <!-- Main Hero Section -->
+        <main class="flex flex-col items-center text-center">
+            
+            <!-- Profile Picture -->
+            <div class="relative w-36 h-36 md:w-48 md:h-48 mb-8 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-blue-500/50">
+                <img 
+                    src="https://placehold.co/400x400/222/FFF?text=asmit" 
+                    alt="Asmit's Profile Picture" 
+                    class="w-full h-full object-cover"
+                    onerror="this.onerror=null;this.src='https://placehold.co/400x400/222/FFF?text=asmit';"
+                >
+            </div>
+            
+            <!-- Main Greeting -->
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">
+                Hello there! 👋
+            </h1>
+            
+            <!-- Tagline -->
+            <p class="text-lg md:text-xl text-gray-300 mb-4 max-w-lg">
+                I'm Asmit, a first-year intermediate student. This is my personal website.
+            </p>
+            
+            <!-- Subtitle/ID -->
+            <div class="text-sm text-gray-500 uppercase tracking-widest mt-4 pt-4 border-t border-gray-700">
+                asumito | STUDENT
+            </div>
+            
+            <!-- Call to Action Button -->
+            <a href="https://asumito.com/about" class="mt-8 px-8 py-3 bg-blue-500 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:-translate-y-1">
+                Learn More About Me
+            </a>
+
+        </main>
     </div>
-    <div class="text-block">
-      <h2>Hello there!<br>I am Asmit, A student of inter first year. this is my personal website.</h2>
-      <p>asumito | STUDENT</p>
-    </div>
-  </main>
+
+    <!-- Simple Footer -->
+    <footer class="w-full text-center p-4 mt-8 text-gray-600 text-sm">
+        &copy; 2025 asumito. All rights reserved.
+    </footer>
+
 </body>
 </html>
