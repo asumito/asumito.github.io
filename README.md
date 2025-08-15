@@ -13,8 +13,6 @@ This is my personal website, designed to serve as a digital portfolio and a cent
 
 * **Modern UI/UX:** The design incorporates a dark theme, smooth hover effects, and subtle animations for a polished look and feel.
 
-* **Modular Codebase:** The project is organized into separate files (`.html`, `.css`, and `.js`) for easy management and scalability.
-
 * **Clean & Organized:** A minimalist design that focuses on readability and user experience.
 
 ## Technology Stack
