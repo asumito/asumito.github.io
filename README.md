@@ -23,8 +23,6 @@ This is my personal website, designed to serve as a digital portfolio and a cent
 
 * **Tailwind CSS:** Used for utility-first styling directly within the HTML, making development faster and more consistent.
 
-* **JavaScript:** For interactive elements and smooth scrolling.
-
 ## Change Log
 
 This log documents the major changes and reasoning behind them throughout the development process.
