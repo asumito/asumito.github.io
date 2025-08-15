@@ -57,6 +57,6 @@ This log documents the major changes and reasoning behind them throughout the de
 * **What I did:** Edited index.html
 *  **Outcome** Self- Explanatory
 
-### v1.4 - Added header image
+### v1.5 - Added header image
 
 * **Expected Outcome**
