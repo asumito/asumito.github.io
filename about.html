@@ -28,28 +28,51 @@
         .animate-fadeIn {
             animation: fadeIn 0.8s ease-out;
         }
+
+        /* Custom style for the header background image */
+        .header-bg {
+            background-image: url('https://cdn.discordapp.com/attachments/1284145901631311956/1405925210661589063/header.png?ex=68a09963&is=689f47e3&hm=fb7e0d0b7445de8900cebe06a39d38edbc055a38a311b94cae2017b96866cfab&');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        /* Overlay to make text readable */
+        .header-bg::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+            z-index: 10;
+        }
     </style>
 </head>
 <body class="bg-gray-950 text-white min-h-screen flex flex-col items-center justify-center p-4">
 
     <!-- Container for the main content -->
-    <div class="w-full max-w-4xl mx-auto py-12 px-6 bg-gray-900 rounded-3xl shadow-2xl animate-fadeIn">
+    <div class="w-full mx-auto py-12 px-6 bg-gray-900 rounded-3xl shadow-2xl animate-fadeIn">
 
-        <!-- Header/Navigation Bar -->
-        <header class="flex flex-col md:flex-row justify-between items-center mb-12">
-            <!-- Logo with gradient -->
-            <a href="index.html" class="text-3xl font-bold mb-4 md:mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-                asumito
-            </a>
-            
-            <!-- Navigation Links -->
-            <nav class="flex flex-wrap justify-center gap-6">
-                <!-- Active link for the current page -->
-                <a href="about.html" class="text-white transition-colors duration-300 font-medium border-b-2 border-blue-500">About</a>
-                <a href="#socials" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Socials</a>
-                <a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Projects</a>
-                <a href="#blog" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Blog</a>
-            </nav>
+        <!-- Header/Navigation Bar with background image -->
+        <header class="header-bg flex flex-col md:flex-row justify-between items-center mb-12 p-6 rounded-t-3xl" style="height: 200px;">
+            <div class="z-20 w-full flex flex-col md:flex-row justify-between items-center">
+                <!-- Logo with gradient -->
+                <a href="index.html" class="text-3xl font-bold mb-4 md:mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                    asumito
+                </a>
+                
+                <!-- Navigation Links -->
+                <nav class="flex flex-wrap justify-center gap-6">
+                    <!-- Active link for the current page -->
+                    <a href="about.html" class="text-white transition-colors duration-300 font-medium border-b-2 border-blue-500">About</a>
+                    <a href="#socials" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Socials</a>
+                    <a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Projects</a>
+                    <a href="#blog" class="text-gray-400 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+                </nav>
+            </div>
         </header>
 
         <!-- About Me Section -->
@@ -59,8 +82,8 @@
             </h1>
             
             <div class="text-lg text-gray-300 text-left space-y-4 md:text-xl max-w-2xl">
-                <p>Hello! I'm Asmit, a first-year intermediate student with a keen interest in web development and technology. I enjoy building things from time to time. My journey into web development started with simple HTML and CSS, and I'm now expanding my skills to include JavaScript and modern libraries.</p>
-                <p>Outside of my studies, I am a gamer. I am learning the guitar currently. I'm always looking to learn and grow, so feel free to reach out to me via my social channels!</p>
+                <p>Hello! I'm Asmit, a first-year intermediate student with a keen interest in web development and technology. I enjoy building things from time to time by following tutorials. My journey into web development started with simple HTML and CSS, and I'm now expanding my skills to include JavaScript and modern libraries.</p>
+                <p>Outside of my studies, I'm passionate about gaming and music. I'm always looking to learn and grow, so feel free to reach out to me via my social channels!</p>
             </div>
             
             <a href="index.html" class="mt-8 px-8 py-3 bg-gray-700 text-white font-semibold rounded-full shadow-lg hover:bg-gray-600 transition-all duration-300 transform hover:-translate-y-1">
@@ -71,7 +94,7 @@
 
     <!-- Simple Footer -->
     <footer class="w-full text-center p-4 mt-8 text-gray-600 text-sm">
-        &copy; 2025 asumito. All rights reserved.
+        &copy; 2024 asumito. All rights reserved.
     </footer>
 
 </body>
