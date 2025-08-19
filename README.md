@@ -56,3 +56,7 @@ This log documents the major changes and reasoning behind them throughout the de
 ### v1.5 - Added header image
 
 * **Expected Outcome**
+
+### v1.6 - Changed the font on whole website
+
+* **Expected Outcome**
