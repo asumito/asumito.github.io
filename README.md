@@ -65,4 +65,7 @@ This log documents the major changes and reasoning behind them throughout the de
 * **Easier to manage**
 
 ### v1.8 - Added a time widget
-* **Shows the viewer their local time and date*
+* **Shows the viewer their local time and date**
+
+### v1.9 - Added Quotes to homepage
+* **Self-Explanatory**
