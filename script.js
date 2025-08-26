@@ -2,12 +2,9 @@ function updateDateTime() {
     // Get the current date and time
     const now = new Date();
 
-    // Format the day of the week
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const day = days[now.getDay()];
-
-    // Format the date
+    // Format the day of the week and date
     const options = {
+        weekday: 'long',
         year: 'numeric',
         month: 'long',
         day: 'numeric'
@@ -26,7 +23,8 @@ function updateDateTime() {
     // Combine and display in the widget
     const widget = document.getElementById('datetime-widget');
     if (widget) {
-        widget.textContent = `${day}, ${date} at ${time}`;
+        // Use a line break and strong tag for the desired formatting
+        widget.innerHTML = `${date}<br><strong>${time}</strong>`;
     }
 }
 
