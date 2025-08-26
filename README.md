@@ -63,3 +63,6 @@ This log documents the major changes and reasoning behind them throughout the de
 
 ### v1.7 - Restructure
 * **Easier to manage**
+
+### v1.8 - Added a time widget
+* **Shows the viewer their local time and date*
