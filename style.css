@@ -1,0 +1,48 @@
+/* Define the custom font from your local file */
+@font-face {
+    font-family: 'JettBrains';
+    src: url('../fonts/JettBrains.ttf') format('truetype');
+    font-weight: 400; /* Adjust if your font has different weights */
+    font-style: normal;
+}
+
+body {
+    font-family: 'JettBrains', sans-serif;
+}
+
+/* Custom animation for a smooth fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fadeIn {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Custom style for the header background image */
+.header-bg {
+    background-image: url('https://articulate-dolphin.static.domains/website-header.gif&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+}
+
+/* Overlay to make text readable */
+.header-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}

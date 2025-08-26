@@ -60,3 +60,6 @@ This log documents the major changes and reasoning behind them throughout the de
 ### v1.6 - Changed the font on whole website
 
 * **Expected Outcome**
+
+### v1.7 - Restructure
+* **Easier to manage**
