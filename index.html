@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>asumito's globe</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,9 +13,9 @@
 
     <div class="w-full mx-auto py-12 px-6 bg-gray-900 rounded-3xl shadow-2xl animate-fadeIn">
 
-        <header class="header-bg flex flex-col md:flex-row justify-between items-center mb-12 p-6 rounded-t-3xl">
-            <div class="z-20 w-full flex flex-col md:flex-row justify-between items-center">
-                <div class="flex flex-col items-center md:items-start">
+        <header class="header-bg flex flex-col md:flex-row justify-between items-end mb-12 p-6 rounded-t-3xl">
+            <div class="z-20 w-full flex flex-col md:flex-row justify-between items-end">
+                <div class="flex flex-col items-start">
                     <a href="index.html" class="text-3xl font-bold mb-2 md:mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                         asumito
                     </a>
@@ -45,8 +45,8 @@
                 Hello there! 👋
             </h1>
             
-            <p class="text-lg md:text-xl text-gray-300 mb-4 max-w-lg">
-                I'm Asmit, a first-year intermediate student. This is my personal website.
+            <p id="quote-container" class="text-lg md:text-xl text-gray-300 mb-4 max-w-lg">
+                <span></span>
             </p>
             
             <div class="text-sm text-gray-500 uppercase tracking-widest mt-4 pt-4 border-t border-gray-700">
@@ -94,6 +94,7 @@
     </footer>
     
     <script src="script.js"></script>
+    <script src="quotes.js"></script>
 
 </body>
 </html>
