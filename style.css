@@ -27,7 +27,7 @@ body {
 
 /* Custom style for the header background image */
 .header-bg {
-    background-image: url('https://articulate-dolphin.static.domains/website-header.gif&auto=format&fit=crop');
+    background-image: url('https://articulate-dolphin.static.domains/');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
