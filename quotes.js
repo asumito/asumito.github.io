@@ -1,6 +1,7 @@
 // A collection of quotes to display.
 const quotes = [
     "The only way to do great work is to love what you do. — Steve Jobs",
+    "I am asumito",
     "Stay hungry, stay foolish. — Steve Jobs",
     "Innovation distinguishes between a leader and a follower. — Steve Jobs",
     "Don't cry because it's over, smile because it happened. — Dr. Seuss",
