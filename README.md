@@ -1,7 +1,4 @@
-
-# A redesign of my personal [domain](asumito.com)
-
-## Asmit's Personal Website
+## Asmit's Personal [Website](https://asumito.com)
 
 ### Project Overview
 
