@@ -1,13 +1,13 @@
 /* Define the custom font from your local file */
 @font-face {
-    font-family: 'JettBrains';
-    src: url('../fonts/JettBrains.ttf') format('truetype');
+    font-family: "JettBrains";
+    src: url("../fonts/JettBrains.ttf") format("truetype");
     font-weight: 400; /* Adjust if your font has different weights */
     font-style: normal;
 }
 
 body {
-    font-family: 'JettBrains', sans-serif;
+    font-family: "JettBrains", sans-serif;
 }
 
 /* Custom animation for a smooth fade-in effect */
@@ -27,7 +27,7 @@ body {
 
 /* Custom style for the header background image */
 .header-bg {
-    background-image: url('https://articulate-dolphin.static.domains/website-header.gif?auto=format&fit=crop');
+    background-image: url("https://media.discordapp.net/attachments/1053260541235298338/1058796472356847656/28Kb.gif?ex=6a167ece&is=6a152d4e&hm=5e984466de6df1a59903342fca0cfb6cced0eb4ab62df27914e621848926bf66&=?auto=format&fit=crop");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body {
 
 /* Overlay to make text readable */
 .header-bg::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
